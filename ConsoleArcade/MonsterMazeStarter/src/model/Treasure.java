@@ -1,18 +1,20 @@
 package model;
 
-public class Treasure {
+public class Treasure extends Choice {
 
     private int prize;
-    private String optionMessage;
+
+    private Monster monster;
 
     public Treasure(int prize) {
-        this.optionMessage = "Claim your treasure!";
+        setOptionMessage("Claim your treasure!");
         this.prize = prize;
     }
 
     //EFFECTS: prints a message representing this possible next choice
+    @Override
     public void printOptionMessage() {
-        System.out.println(optionMessage);
+        System.out.println(getOptionMessage());
     }
 
     //EFFECTS: prints the result of choosing this choice

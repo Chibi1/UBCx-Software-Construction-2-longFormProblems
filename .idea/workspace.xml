@@ -12,6 +12,10 @@
       <change beforePath="$PROJECT_DIR$/../../softwareConstruction_DataAbstraction/week4/TPD-lecture-starters" beforeDir="false" afterPath="$PROJECT_DIR$/../../softwareConstruction_DataAbstraction/week4/TPD-lecture-starters" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../softwareConstruction_DataAbstraction/week4/TPD-practice-projects" beforeDir="false" afterPath="$PROJECT_DIR$/../../softwareConstruction_DataAbstraction/week4/TPD-practice-projects" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Busy'sDiner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/MonsterMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/MonsterMaze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/RefactoredGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/RefactoredGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/FitLifeGymChainOOD/out/" />
@@ -28,11 +32,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/MonsterMaze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="540">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1846">
+              <caret line="124" column="22" lean-forward="true" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/RefactoredGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3754#3755#0" expanded="true" />
+                <element signature="e#3838#3839#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Choice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Monster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding>
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Room.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#1548#1549#0" expanded="true" />
+                <element signature="e#2333#2334#0" expanded="true" />
+                <element signature="e#2368#2369#0" expanded="true" />
+                <element signature="e#2986#2987#0" expanded="true" />
+                <element signature="e#3023#3024#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Treasure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -66,6 +147,12 @@
         <option value="$PROJECT_DIR$/PetPairsStarter/src/model/Human.java" />
         <option value="$PROJECT_DIR$/PetPairsStarter/src/model/PetStore.java" />
         <option value="$PROJECT_DIR$/PetPairsStarter/src/ui/PetPairs.java" />
+        <option value="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Monster.java" />
+        <option value="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Treasure.java" />
+        <option value="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/Game.java" />
+        <option value="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/RefactoredGame.java" />
+        <option value="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Choice.java" />
+        <option value="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Room.java" />
         <option value="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/MonsterMaze.java" />
       </list>
     </option>
@@ -273,6 +360,18 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/RefactoredGame.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CoffeeMaker/src/exceptions/NotEnoughBeansExpeception.java">
@@ -547,10 +646,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="584" column="9" selection-start-line="584" selection-start-column="9" selection-end-line="584" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1846">
+          <caret line="124" column="22" lean-forward="true" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/RefactoredGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3754#3755#0" expanded="true" />
+            <element signature="e#3838#3839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/ui/MonsterMaze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="540">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Treasure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#2368#2369#0" expanded="true" />
+            <element signature="e#2986#2987#0" expanded="true" />
+            <element signature="e#3023#3024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Choice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
