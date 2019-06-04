@@ -1,10 +1,12 @@
 package model;
 
+import model.observer_pattern.GameObserver;
 import model.observer_pattern.Subject;
 import model.random.BingoNumber;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Observer;
 
 public class Game extends Subject {
 
@@ -12,11 +14,13 @@ public class Game extends Subject {
     public static final int SIDE_LENGTH = (int) Math.sqrt(CARD_SIZE);
 
     private BingoNumber currentCall;
-    private List<PlayerCard> cards;
+//    private List<PlayerCard> cards;
+    private List<PlayerCard> observers;
     private boolean gameOver;
 
     public Game() {
-        cards = new ArrayList<>();
+//        cards = new ArrayList<>();
+        observers = new ArrayList<>();
         callNext();
     }
 
@@ -30,12 +34,12 @@ public class Game extends Subject {
     }
 
     public List<PlayerCard> getCards() {
-        List<PlayerCard> playerCards = new ArrayList<>();
-        for (PlayerCard o : cards) { //NOTE: refactor this line ONLY.
+        List<PlayerCard> observers = new ArrayList<>();
+        for (PlayerCard o : observers) { //NOTE: refactor this line ONLY.
             if (o.getClass().getSimpleName().equals("PlayerCard"))
-                playerCards.add(o);
+                observers.add(o);
         }
-        return playerCards;
+        return observers;
     }
 
     //EFFECTS: generates the next bingo call and notifies observers
@@ -47,17 +51,17 @@ public class Game extends Subject {
     //MODIFIES: this
     //EFFECTS: adds observer to list of observers
     public void addCard(PlayerCard pc) {
-        if (!cards.contains(pc)) {
-            cards.add(pc);
-            addObserver(pc);
-        }
+//        if (!cards.contains(pc)) {
+//            cards.add(pc);
+        addObserver(pc);
+//        }
     }
 
     //EFFECTS: sets game over to true if one of the players has bingo
     public void refreshGameOver(){
-        for (PlayerCard pc : cards) {
-            PlayerCard p = pc;
-            if (p.hasBingo()) {
+        for (GameObserver ob : observers) {
+            PlayerCard o = (PlayerCard) ob;
+            if (o.hasBingo()) {
                 gameOver = true;
                 break;
             }
